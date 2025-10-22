@@ -1,0 +1,25 @@
+package ex02;
+
+public class Caculater {
+
+	public static void main(String[] args) {
+
+		int x = 1;
+		int y = 2;
+		int result = x + y;
+
+		System.out.println("1 과 2 두 수 합은 : " + result + " 입니다.");
+
+		int a = 95; // abc같은 명칭은 나중에 차지 어려움 명칭을 정확히 하는 것이 좋다.
+		int b = 87;
+		int c = 90;
+		int sum = a + b + c;
+
+		System.out.println(sum);
+
+		int value = 30;
+		int a1 = value + 25;
+		System.out.println(a1);
+	}
+
+}

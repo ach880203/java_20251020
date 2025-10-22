@@ -1,0 +1,74 @@
+package test;
+
+import java.util.Scanner;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*
+		 * ---------출력 예시------------- 
+		 * 이름 : 본인이름 - name 
+		 * 나이 : 00 - age 
+		 * 주소 : 서울시 천호동 -adress 
+		 * 몸무게 : 00kg - weight
+		 * 
+		 * 
+		 * String name = "안창현"; System.out.println(" 이 름 : " + name);
+		 * 
+		 * int age = 37; System.out.println(" 나 이 : " + age);
+		 * 
+		 * String adress = "서울시 상동구 성내동"; System.out.println(" 주 소 : " + adress);
+		 * 
+		 * double weight = 80; System.out.println(" 몸무게 : " + weight + "kg");
+		 */
+
+		// '(System.in)' 이거는 뭐야?
+		// 형변환 이라는걸 잘알아야겠는데?
+
+		/*
+		 * Scanner sc = new Scanner(System.in);
+		 * 
+		 * //Long.parse, Double.parse, Integer.parse) 
+
+		 * String name = sc.nextLine();
+		 * int age = Integer.parseInt(sc.nextLine()); 
+		 * String address = sc.nextLine(); 
+		 * double weight = Double.parseDouble(sc.nextLine()); 
+		 * long money = Long.parseLong(sc.nextLine()); 
+		 * double foot =sc.nextDouble(); 
+		 * int fam = sc.nextInt(); 
+		 * System.out.println(" 이름 : " + name);
+		 * System.out.println(" 나이 : " + age + "살"); 
+		 * System.out.println(" 주소 : " + address); 
+		 * System.out.println(" 무게 : " + weight + "Kg");
+		 * System.out.println(" 자산 : " + money + "냥"); 
+		 * System.out.println(" 발치수 : " + foot + "mm"); 
+		 * System.out.println(" 가족원 : " + fam + "명");
+		 * 
+		 * System.out.println("end!");
+		 */
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String name = sc.nextLine();
+				int age = sc.nextInt();
+				double birth = sc.nextDouble();
+				String address = sc.nextLine();
+				long money = sc.nextLong();
+				
+		System.out.println("이름 : " + name);
+				System.out.println("나이 : " + age + "살");
+				System.out.println("생년월일 : " + birth);
+				System.out.println("주소 : " + address);
+				System.out.println("자산 : " + money + "원");
+				System.out.println();
+				
+		
+						
+		
+	}
+
+}

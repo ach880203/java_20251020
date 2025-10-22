@@ -1,0 +1,25 @@
+package test;
+
+public class sample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		Person P = new Person();
+		
+	    P.name = "안창현";
+	    P.age =37;		
+	    
+	    System.out.println(P.name);
+	    System.out.println(P.age);
+	}
+
+}
+
+
+
+class Person{
+	
+	String name;
+	int age;	
+}

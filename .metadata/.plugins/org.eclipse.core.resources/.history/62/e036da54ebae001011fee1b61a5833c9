@@ -1,0 +1,33 @@
+package test;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		System.out.println("오마나");
+
+
+		System.out.println();
+		System.out.println();
+
+		int a=10;
+		int b=20;
+		int c=a;
+
+		char var1='A';
+		char c1=  65; 
+
+		char var2='가';
+		char c2 = 44032;		
+
+		System.out.println(var1);
+		System.out.println(c1);
+		System.out.println(var2);
+		System.out.println(c2);
+
+
+
+	}
+
+}
+

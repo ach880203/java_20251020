@@ -1,0 +1,20 @@
+package test;
+
+public class sample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		Person p = new Person("d");
+		
+	}
+
+}
+
+
+
+class Person{
+	
+	String name;
+	int age;	
+}
