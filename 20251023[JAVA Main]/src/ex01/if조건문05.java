@@ -21,6 +21,8 @@ public class if조건문05 {
 		 */
 		
 		/*
+		 * 내가 만든 아주 원초적인 구조
+		 * 
 	    int age = 54;
 		int M = 2000;
 		int S = 20 /100 ;
@@ -43,9 +45,12 @@ public class if조건문05 {
 		}
 		
 		System.out.println("-------프로그램 종료-----------");
+		* 손봐야 하는 곳이 많아서 잘 사용하지 않는다.
 		*/
 		
 		
+		
+		System.out.println("---------가독성이 좋게만들어야 한다. 썜 예시---------------");
 		    int age = 43;
 			int fee = 2000;
 			double rate = 0;
@@ -66,7 +71,7 @@ public class if조건문05 {
                 fee = 0;
 			}
 			if(fee != 0) {
-				fee = (int)( fee * ( 1 - rate ) );
+				fee = (int)(fee * ( 1 - rate ));
 			}
 			
 			System.out.println("나이 " + age + "세는 " + fee + "원 입니다.");
