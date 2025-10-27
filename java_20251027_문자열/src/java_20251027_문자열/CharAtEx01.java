@@ -42,7 +42,7 @@ public class CharAtEx01 {
 		System.out.println("문자열 찾기 : " + index);
 		
 		
-		System.out.println("---------문자열 분리-------");
+		System.out.println("---------문자열 분리!!많이 사용한다!!-------");
 		//"파이썬 프로그래밍" 문자열을 공난 기준으로 분리
 		String[] sub4 = subject.split(" ");//꼭 사이를 듸어 줘야함.
 		System.out.println(sub4[0]);
