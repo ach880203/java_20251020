@@ -9,6 +9,8 @@ public class 입력X출력X{
 		s1.age = 29;
 		s1.address = "강동구 천호동";
 		
+		s1.setAge(0);
+		
 	    System.out.println(s1.name);
 		System.out.println(s1.age);
 		System.out.println(s1.address);
@@ -47,5 +49,12 @@ class Student{
 	    void info() {
 	    	System.out.println(name + "님 나이는" + age +"이고, " + address + "살고 있습니다.");
 	    }	    	
-                 	    	 
+        public void setAge(int a) {
+        	if(a>0 && a<=150)
+        		age=a;
+        	else
+        		System.out.println("나이는 1~150까지입력가능.");
+        	
+        }
+	    
 	    }
