@@ -1,6 +1,6 @@
 package ex01;
 
-public class Teacher {
+public class Teacher extends Person{
 
 	private String name;
 	private int age;
@@ -8,8 +8,7 @@ public class Teacher {
 	
 	 public Teacher() {}
 	 public Teacher(String name, int age, String subject) {
-			this.name = name;
-			this.age = age;
+			super(name, age);//부모클래스인 Person에서 super를 이용하여 가지고 온다.
 			this.subject = subject;
 	
 	
