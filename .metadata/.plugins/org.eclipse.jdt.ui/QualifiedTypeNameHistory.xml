@@ -6,7 +6,12 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="ex09.Printersol"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="ex06.SamsungPay"/>
     <fullyQualifiedTypeName name="ex06.CreditCard"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Question2.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Question2_1.Cat"/>
+    <fullyQualifiedTypeName name="Question3_interface.inkjetPrinter"/>
+    <fullyQualifiedTypeName name="Question3_interface.LaserPrinter"/>
 </qualifiedTypeNameHistroy>
