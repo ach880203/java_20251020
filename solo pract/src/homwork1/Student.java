@@ -16,6 +16,6 @@ public class Student extends Human{
 	  }
 	  public void showStudentInfo() {
 		  super.showInfo();
-		  System.out.printf("학번 : %s, 전공 : %s",number, major);
+		  System.out.printf("학번 : %s, 전공 : %s\n",number, major);
 	  }
 }
