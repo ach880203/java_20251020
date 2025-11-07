@@ -5,13 +5,6 @@ public class Student extends Human{
 	private String number;
 	private String major;
 	
-	
-	
-	public void showInfo() {
-		super.showInfo();
-		System.out.printf("학번 : %s, 전공 : %s",number, major);
-		
-	}
 
 	  public Student(){
 		  super();
@@ -20,5 +13,9 @@ public class Student extends Human{
 		  super(name, age, weight, height);
 		  this.number = number;
 		  this.major = major;
+	  }
+	  public void showStudentInfo() {
+		  super.showInfo();
+		  System.out.printf("학번 : %s, 전공 : %s",number, major);
 	  }
 }

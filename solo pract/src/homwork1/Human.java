@@ -9,9 +9,6 @@ public class Human {
 	   private int weight;
 	   
 	
-	   public void showInfo() {
-		   System.out.printf("이름 : %s, 나이 : %d, 키: %d, 몸무게 : %d\n", name, age, height, weight);
-	   }
 	   
 	   
 	   Human(){}
@@ -21,5 +18,8 @@ public class Human {
 		   this.height = height;
 		   this.weight = weight;
 		   
+	   }
+	   public void showInfo() {
+		   System.out.printf("이름 : %s, 나이 : %d, 키: %d, 몸무게 : %d\n", name, age, height, weight);
 	   }
 }
